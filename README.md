@@ -1,6 +1,8 @@
 # Python Topics
 
-Classes meet every Tuesday and Thursday from 5:30PM to 8:30PM vi Zoom.
+* Classes meet every Tuesday and Thursday from 5:30PM to 8:30PM vi Zoom.
+* Office Hours for Don Koch: Open office via Zoom, 60 minutes prior to each class, Tuesdays and Thursdays 4:30 PM.
+
 
 | Date         | Topic                                          | Assingment             |
 |--------------|------------------------------------------------|------------------------|
