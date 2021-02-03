@@ -26,6 +26,7 @@ We will be teaching the Python portions of this course with JupyterLab installed
     From the JupyterLab select "File"->"New Launcher" and select the "Terminal" tile to launch a new shell.  Execute the following commands from the shell command line. 
     
     ```conda install saspy```
+    
         Alternatively, if you are not using Anaconda for your Python environment, you can execute
            
     ```pip install saspy```
