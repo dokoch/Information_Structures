@@ -2,7 +2,7 @@
 
 SAS_config_names = ['oda']
 oda = {
-    'java': '/usr/bin/java',
+    'java': 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe',
     'iomhost': ['odaws01-usw2.oda.sas.com',
                 'odaws02-usw2.oda.sas.com',
                 'odaws03-usw2.oda.sas.com',
