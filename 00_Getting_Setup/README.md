@@ -5,7 +5,13 @@
 These instructions are for Lipscomb University students who are enrolled in *MSDS5023 Information Structures* and our *SAS/Python Bootcamp*. The goal is to get your Python environment configured and ready for use and to test that you can connect to your SAS cloud instance using Python.
 
 ---
+## Optional - Install Sublime Text
 
+You will need to edit text files to complete these steps.  If you are using Windows 10, Notepad works just fine.  However, if you are a macOS user most have found it easier to use a different text editor than the default TextEdit app provided by default.
+
+There are many choices, but I have found that many students perfer [Sublime Text](https://www.sublimetext.com/). It's free, easy to install and use and is a fairly robust IDE for Python.
+
+---
 ## Python Setup
 There are several ways to install Python on your PC.  If you have a Python environment installed that you are happy with, you can use that in this course.  
 
@@ -16,7 +22,6 @@ We will be teaching the Python portions of this course with JupyterLab installed
 1. Launch Anaconda and click the JupyterLab tile to launch JupyterLab in your browser.
 
 ---
-
 ## SAS Setup
 
 1. You should have already received instructions to register for a **SAS OnDemand for Analytics (ODA)** cloud account. As a reminder, the instructions can be found [at this link]( https://support.sas.com/ondemand/steps.html). Verify that you can log into [ODA](https://welcome.oda.sas.com/login) and launch **SAS® Studio**.
@@ -50,8 +55,8 @@ sas = saspy.SASsession(cfgname="oda", results='HTML')
 class_data = sas.sasdata('class', 'sashelp')
 class_data.head()
 ```
----
 
+---
 ## If You Have Problems
 1. Double check that you have accurately followed the instructions provided.
 1. **Please don't hesitate** to send me an email or call my cell if you get stuck and I will be happy to assist.
@@ -75,8 +80,7 @@ I highly recommend this book for getting started with data science using Python 
 
 This is one of my favorites cheat sheets. It's crammed full of Python syntax and basic usage. 
 
-[PDF Download](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3.pdf)
-
+[PDF Download](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
 ![Cheat Sheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3.png)
 
 ---
