@@ -2,7 +2,7 @@
 
 
 ## Introduction
-These instructions are for Lipscomb University students who are enrolled in **Information Structures (MSDS5023/DS3223)** and our **SAS/Python Bootcamp**. The goal is to get your Python environment configured and ready for use with your **SAS OnDemand for Academics** cloud instance using Python.
+These instructions are for Lipscomb University students who are enrolled in **Information Structures (MSDS5023/DS3223)** and our **SAS/Python Bootcamp**. The goal is to get your Python environment configured and ready for use with your **SAS OnDemand for Academics** cloud instance.
 
 ---
 
@@ -14,10 +14,10 @@ You will need to edit text files to complete these steps.  If you are using Wind
 ---
 
 ## Python Setup
-We strongly recommend Anaconda to manage your Python environment.  It is based on Jupyter Notebooks and the Conda package manager which have become standard for Data Science.  If you have a Python setup that you are happy with, you are welcome to complete the course using it.
+We strongly recommend Anaconda to manage your Python environment.  It is based on Jupyter Notebooks and the Conda package manager which have become standards for Data Science.  If you have a Python setup that you are happy with, you are welcome to complete the course using your setup.
 
 1. [Download Anaconda](https://www.anaconda.com/products/individual#Downloads) for your OS (Windows 10, macOS or Linux).
-1. Run the installer to complete the installation of Anaconda. At the time of this writing, Anaconda installs Python 3.8.
+1. Run the installer to complete the installation of Anaconda.
 1. Launch Anaconda and click the JupyterLab tile to launch JupyterLab in your browser.
 
 ---
@@ -32,7 +32,7 @@ Typical locations are:
     * **On macOS:** ```/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java```
     * **On Windows 10:** ```C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe```
     * **On Linux:** ```/usr/bin/java```
-1. Open a terminal or command window and copy/paste the above full path to your java executable and hit enter.  If you get the usage output from java, then your java is working correctly.
+1. Open a terminal or Command window and copy/paste the above full path at the command prompt and hit enter.  If you get the usage output from java, then your java is working correctly.
 
 ---
 
@@ -52,7 +52,7 @@ Typical locations are:
 
 1. Configure SASpy to connect to your **ODA** cloud account.
 
-   * Closely follow the instructions at [SASPy access to SAS® hosted servers](https://support.sas.com/ondemand/saspy.html) to configure your Python environment to access the ODA SAS server.
+   * Closely follow the instructions at [SASPy access to SAS® hosted servers](https://support.sas.com/ondemand/saspy.html) to configure your Python environment to access the **ODA** server.
    
    * You will be creating two files on your PC. These files allow you to connect to **ODA** and to authenticate to the server.
      * *sascfg_personal.py*
