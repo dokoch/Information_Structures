@@ -1,4 +1,4 @@
-# Getting Setup to Learn Python and SAS/Python
+# Getting Setup to SAS/Python
 
 
 ## Introduction
