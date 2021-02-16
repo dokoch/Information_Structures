@@ -1,4 +1,4 @@
-# Getting Setup to SAS/Python
+# Getting Setup to use SAS/Python
 
 
 ## Introduction
